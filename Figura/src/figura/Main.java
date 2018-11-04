@@ -9,10 +9,10 @@ public class Main {
         Circulo c = new Circulo("azul ",1,true);
         Quadrado q = new Quadrado("branco ", 2, false);
         
-        q.setArea(0);
-        q.setPerimetro(0);
-        c.setArea(0);
-        c.setPerimetro(0);
+        q.setArea(0);       // alterando area do quadrado 
+        q.setPerimetro(0);  // alterando perimetro do quadrado
+        c.setArea(0);       // alterando area do circulo
+        c.setPerimetro(0);  // alterando area do circulo
 
         System.out.println("---------Circulo-------");
         System.out.println("Cor: "+ c.getCor());
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Filled: " + q.getFilled());
 
     
-    System.out.println(q.getA());
+   // System.out.println(q.getA());
         
     }
     
