@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/emilysoueu/Documentos/Computação/3 º Período/Paradigmas de Programação/Paradigmas/.metadata/.plugins/org.eclipse.jdt.core
+1160835627.index
+646308851.index

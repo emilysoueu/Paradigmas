@@ -1,0 +1,101 @@
+import java.util.Scanner; // recebr entradas 
+import java.io; // receber strings
+
+public class lista1 {
+	public static void main (String[] args) {
+		//Q 01
+		/**
+		System.out.println("Informe a quantidade de tanques: ");
+		Scanner n = new Scanner(System.in);
+		int qtdTanques = n.nextInt();
+		int i, km, lit, kmTotal = 0, litTotal = 0;
+		double res;
+		
+		for (i=1; i<=qtdTanques; i++) {
+			System.out.println("Infome a quilometragem: ");
+			km = n.nextInt();			
+			System.out.println("Informe a quantidade de litros: ");
+			lit = n.nextInt();
+			res = km/lit;
+			kmTotal += km;
+			litTotal += lit;
+			System.out.println("Tanque " + i +": " + res +"Km/L.");
+		}
+		
+		System.out.println("Quilometros Total: "+ kmTotal);
+		System.out.println("Litros Total: "+ litTotal);		
+	}
+	*/
+		
+	//Q 02
+	
+	/**
+		System.out.println("Informe o valor dos itens vendidos: ");
+		Scanner vend = new Scanner(System.in);
+		int valor = vend.nextInt();
+		
+		double sal = ((valor*9)/100)+200;
+		
+		System.out.println("Rendimentos da ultima semana: "+ sal + " Reais");
+		
+	*/
+	//Q 03
+	/**
+	System.out.println("Informe a quantidade de funcionarios: ");
+	Scanner f = new Scanner(System.in);
+	
+	int func = f.nextInt();
+	int i;
+	String nome;
+	double base, base2, bruto;
+	
+	for(i=0; i<func; i++) {
+		System.out.println("Informe o nome do funcionario: ");
+		nome = f.next();
+	
+		System.out.println("Informe as horas trabalhadas pelo funcionario: ");
+		int horas = f.nextInt();
+		
+		System.out.println("Informe o Salario/Hora: ");
+		int salBase = f.nextInt();		
+		
+		if (horas  <= 40) {
+			base = horas * salBase;
+			System.out.println("Salario Bruto de "+ nome +"= "+ base + "Reais");
+		}else {
+			base = (40) * salBase;
+			base2 =  ((horas - 40) * salBase/2);
+			bruto = base + base2;
+			System.out.println("Salario Bruto de "+ nome +"= "+ bruto + "Reais");			
+		}// fim else		
+	  }// fim for
+	 f.close();
+	 
+	 */
+	// Q 04
+		
+		int i;		
+		Scanner s = new Scanner(System.in);
+		
+		System.out.println("Informe a condicao de parada: ");
+		int stop = s.nextInt();
+		
+		for (i=1; i<=stop; i++) {
+			System.out.println("1*"+ i  +"|"+ "10 * "+i  +"|"+ "100 *"+i);
+			System.out.println(   1*i   +"  |"+  10 * i   +" |"+ 100*i);
+		}
+		
+		s.close();
+		
+		
+		
+		
+		
+   } // fim main		
+}// fim classe
+
+		
+		
+		
+
+
